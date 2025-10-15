@@ -1,4 +1,4 @@
 add_executable(Enums
         main.c
-        ../munit_impl.c
+        ../munit/munit.c
 )
