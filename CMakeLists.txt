@@ -10,4 +10,4 @@ add_compile_options(-Wall -Wextra -Wpedantic)
 
 # Add every sub-folder as its own mini project
 add_subdirectory(Enums)
-#add_subdirectory(Structs)
+add_subdirectory(Unions)
