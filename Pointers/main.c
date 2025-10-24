@@ -6,15 +6,17 @@
 #include "../munit/munit.h"
 
 
-extern MunitSuite pointerSuite;
+extern MunitSuite arrayPointerSuite;
+extern MunitSuite voidPointerSuite;
 
 int main(int argc, char *argv[]) {
     MunitSuite allSuites[] = {
-        pointerSuite,
+        arrayPointerSuite,
+        voidPointerSuite,
     };
 
     MunitSuite rootSuite = {
-        "/enums",
+        "/pointers",
         NULL,
         allSuites,
         1,

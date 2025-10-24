@@ -93,8 +93,8 @@ static MunitTest tests[] = {
     {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
 };
 
-MunitSuite pointerSuite = {
-    "/pointers",
+MunitSuite arrayPointerSuite = {
+    "/array-pointers/",
     tests,
     NULL,
     1,
