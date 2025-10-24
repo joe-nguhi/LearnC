@@ -10,6 +10,7 @@ extern MunitSuite arrayPointerSuite;
 extern MunitSuite voidPointerSuite;
 extern MunitSuite swapIntegersSuite;
 extern MunitSuite swapStringsSuite;
+extern MunitSuite swapGenericsSuite;
 
 int main(int argc, char *argv[]) {
     MunitSuite allSuites[] = {
@@ -17,6 +18,7 @@ int main(int argc, char *argv[]) {
         voidPointerSuite,
         swapIntegersSuite,
         swapStringsSuite,
+        swapGenericsSuite,
     };
 
     MunitSuite rootSuite = {
