@@ -8,4 +8,7 @@ add_executable(Pointers
         tests/test_array_pointers.c
         tests/test_void_pointers.c
         tests/test_swap_integers.c
+        swap_strings.c
+        swap_strings.h
+        tests/test_swap_strings.c
 )
